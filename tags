@@ -11,11 +11,13 @@ Animal	animal.py	/^class Animal(object):$/;"	c
 Cat	animals/cat.py	/^class Cat(animal.Animal):$/;"	c
 Dog	animals/dog.py	/^class Dog(animal.Animal):$/;"	c
 Farm	farm.py	/^class Farm(object):$/;"	c
+Leopard	animals/leopard.py	/^class Leopard(animal.Animal):$/;"	c
 Lion	animals/line.py	/^class Lion(animal.Animal):$/;"	c
 Sheep	animals/sheep.py	/^class Sheep(animal.Animal):$/;"	c
 __init__	animal.py	/^    def __init__(self, kind):$/;"	m	class:Animal
 __init__	animals/cat.py	/^    def __init__(self):$/;"	m	class:Cat
 __init__	animals/dog.py	/^    def __init__(self):$/;"	m	class:Dog
+__init__	animals/leopard.py	/^    def __init__(self):$/;"	m	class:Leopard
 __init__	animals/line.py	/^    def __init__(self):$/;"	m	class:Lion
 __init__	animals/sheep.py	/^    def __init__(self):$/;"	m	class:Sheep
 __init__	farm.py	/^    def __init__(self):$/;"	m	class:Farm
@@ -23,6 +25,7 @@ add_animal	farm.py	/^    def add_animal(self, animal):$/;"	m	class:Farm
 get_kind	animal.py	/^    def get_kind(self):$/;"	m	class:Animal
 get_kind	animals/cat.py	/^    def get_kind(self):$/;"	m	class:Cat
 get_kind	animals/dog.py	/^    def get_kind(self):$/;"	m	class:Dog
+get_kind	animals/leopard.py	/^    def get_kind(self):$/;"	m	class:Leopard
 get_kind	animals/line.py	/^    def get_kind(self):$/;"	m	class:Lion
 get_kind	animals/sheep.py	/^    def get_kind(self):$/;"	m	class:Sheep
 main	animal_farm.py	/^def main(animals):$/;"	f
